@@ -44,6 +44,7 @@ em{
         align-items: center;
         justify-content: space-between;
         box-shadow: 20px 15px 27px black;
+        padding: 0 10%;
     }
 
     .logo-preta{
@@ -173,26 +174,15 @@ p{
 }
 
 @media screen and (min-width:1024px){
-    .beneficios{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: auto 1fr;
-        row-gap: 20px;
-    }
-
-    .beneficios h3{
-        grid-column: 2;
-    }
-
-    .lista-beneficios{
-        grid-column: 1;
-        margin-bottom: 2rem;
+    .flex-beneficios{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        gap: 20px;
     }
 
     .imagem__beneficios{
-        grid-column: span 2;
-        border-top-left-radius: 10px;
-        border-bottom-left-radius: 10px;
+        width: 40%;
     }
 }
 
